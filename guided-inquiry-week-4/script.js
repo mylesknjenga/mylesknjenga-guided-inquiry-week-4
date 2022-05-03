@@ -58,9 +58,9 @@ const person = () => {
             getName : function () {
                 return this.name
             }
-        }
+        };
         return pii.getName();
-    }
+    };
     const publicFunction = () => allInfo();
     return publicFunction();
 
@@ -89,7 +89,7 @@ class Person {
 
     fetchJob() {
         console.log(`${this.name} is a ${this.job}`);
-    }
+    };
 };
 
 //Create a Programmer constructor that inherits all the members from Person with an additional
